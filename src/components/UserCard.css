@@ -1,0 +1,144 @@
+.user-cards-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-header h2 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.section-header h3 {
+  font-size: 20px;
+  color: #666;
+  margin-top: 0;
+}
+
+.carousel-container {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.carousel-item {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.user-card {
+  width: 220px;
+  height: 270px;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #eaeaea;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.user-card h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.user-card p {
+  font-size: 14px;
+  margin: 8px 0;
+  color: #666;
+}
+
+.bank-account-section {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.bank-account-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.bank-account-section p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.tabs-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab-button.active {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+.tab-content-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tab-content {
+  text-align: left;
+}
+
+.tab-content h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.customer-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.detail-row {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+.detail-label {
+  font-weight: bold;
+  width: 100px;
+  flex-shrink: 0;
+}
+
+.detail-value {
+  flex-grow: 1;
+}
