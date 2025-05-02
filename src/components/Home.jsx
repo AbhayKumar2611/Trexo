@@ -4,76 +4,80 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="parent-container">
-      <div class="container">
-        <div class="left-section">
+      <div className="container">
+        <div className="left-section">
           <h1>Open. Activate. Bank—all in minutes</h1>
-          <p class="subtitle">
+          <p className="subtitle">
             Set up your account instantly and start banking hassle-free.
           </p>
 
-          <ul class="feature-list">
-            <li class="feature-item">
-              <span class="arrow">→</span>
-              <span class="feature-text">No minimum balance requirement</span>
+          <ul className="feature-list">
+            <li className="feature-item">
+              <span className="arrow">→</span>
+              <span className="feature-text">
+                No minimum balance requirement
+              </span>
             </li>
-            <li class="feature-item">
-              <span class="arrow">→</span>
-              <span class="feature-text">
+            <li className="feature-item">
+              <span className="arrow">→</span>
+              <span className="feature-text">
                 Instant account opening with Aadhaar and PAN
               </span>
             </li>
-            <li class="feature-item">
-              <span class="arrow">→</span>
-              <span class="feature-text">
+            <li className="feature-item">
+              <span className="arrow">→</span>
+              <span className="feature-text">
                 Convenient KYC with video verification
               </span>
             </li>
-            <li class="feature-item">
-              <span class="arrow">→</span>
-              <span class="feature-text">Free virtual debit card</span>
+            <li className="feature-item">
+              <span className="arrow">→</span>
+              <span className="feature-text">Free virtual debit card</span>
             </li>
-            <li class="feature-item">
-              <span class="arrow">→</span>
-              <span class="feature-text">
+            <li className="feature-item">
+              <span className="arrow">→</span>
+              <span className="feature-text">
                 Physical debit card delivered with an Insta kit
               </span>
             </li>
           </ul>
         </div>
 
-        <div class="right-section">
-          <div class="arrow-overlay"></div>
+        <div className="right-section">
+          <div className="arrow-overlay"></div>
 
-          <div class="steps-container">
-            <div class="step-line"></div>
+          <div className="steps-container">
+            <div className="step-line"></div>
 
-            <div class="step">
-              <div class="step-number">1</div>
-              <div class="step-text">Step 1: Signup with mobile number</div>
+            <div className="step">
+              <div className="step-number">1</div>
+              <div className="step-text">Step 1: Signup with mobile number</div>
             </div>
 
-            <div class="step">
-              <div class="step-number">2</div>
-              <div class="step-text">Step 2: Enter your PAN Card Details</div>
+            <div className="step">
+              <div className="step-number">2</div>
+              <div className="step-text">
+                Step 2: Enter your PAN Card Details
+              </div>
             </div>
 
-            <div class="step">
-              <div class="step-number">3</div>
-              <div class="step-text">
+            <div className="step">
+              <div className="step-number">3</div>
+              <div className="step-text">
                 Step 3: Setup your Savings Account (Jupiter PRO)
               </div>
             </div>
 
-            <div class="step">
-              <div class="step-number">4</div>
-              <div class="step-text">
+            <div className="step">
+              <div className="step-number">4</div>
+              <div className="step-text">
                 Step 4: Activate your account with KYC
               </div>
             </div>
 
-            <div class="step">
-              <div class="step-number">5</div>
-              <div class="step-text">Step 5: Start using Trexo!</div>
+            <div className="step">
+              <div className="step-number">5</div>
+              <div className="step-text">Step 5: Start using Trexo!</div>
             </div>
           </div>
         </div>
