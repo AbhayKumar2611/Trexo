@@ -142,6 +142,10 @@ h1 {
     padding: 20px;
   }
 
+  .subtitle {
+    font-size: 12px;
+  }
+
   .right-section {
     margin-top: 20px;
   }
