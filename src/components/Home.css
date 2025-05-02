@@ -131,3 +131,45 @@ h1 {
   clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%);
   z-index: 1;
 }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left-section,
+  .right-section {
+    padding: 20px;
+  }
+
+  .right-section {
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .feature-text,
+  .step-text {
+    font-size: 14px;
+  }
+
+  .step-number {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
+
+  .step {
+    margin-bottom: 20px;
+  }
+
+  .step-line {
+    left: 12px;
+  }
+
+  .arrow-overlay {
+    display: none;
+  }
+}
